@@ -1,0 +1,57 @@
+/* Use a responsive layout */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Style the navigation menu */
+nav {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Style the form */
+.attendance-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.attendance-form label {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.attendance-form input {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  width: 50%;
+}
+
+/* Style the button */
+.btn {
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+}
